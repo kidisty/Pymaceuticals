@@ -3,7 +3,7 @@ Tumor response to different treatment
 
 In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. 
 
-In the plots the results for: 
+Calculation, plot and analysis: 
 
 -A summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
@@ -18,3 +18,11 @@ In the plots the results for:
 
 
 -Using Matplotlib, a box and whisker plot of the final tumor volume for all four treatment regimens were generated and any potential outliers in the plot were highlighted by changing their color and style.
+
+-A line plot of time point versus tumor volume for a single mouse treated with Capomulin.
+
+
+-A scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
+
+
+-Calculation of the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot of the linear regression model on top of the previous scatter plot.
